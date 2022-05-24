@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% block title %} Profile{% endblock title %}
+
+{% block body  %}
+<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+    <div class="breadcrumb-title pe-3">Profile</div>
+    <div class="ps-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0 p-0">
+                <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">profile</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!--end breadcrumb-->
+<div class="row">
+    <div class="col-xl-9 mx-auto">
+        <div class="card border-top border-0 border-4 border-info">
+            <div class="card-body">
+                <div class="border p-4 rounded">
+                    <div class="card-title d-flex align-items-center">
+                        <div><i class="bx bxs-user me-1 font-22 text-info"></i>
+                        </div>
+                        <h5 class="mb-0 text-info">Profile</h5>
+                    </div>
+                    <hr/>
+                    <div class="row mb-3">
+                        <label for="inputFacultyName" class="col-sm-3 col-form-label">Profile Picture</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputFacultyName" class="col-sm-3 col-form-label"> Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputFacultyName" placeholder="Faculty Name">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputFacultyPost" class="col-sm-3 col-form-label">Designation</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputFacultyPost" placeholder="Designation">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputFacultyDepartment" class="col-sm-3 col-form-label">Department</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputFacultyDepartment" placeholder="Department">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputFacultySubject" class="col-sm-3 col-form-label">Subject (Area of Interest)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputFacultySubject" placeholder="Subject (Area of Interest)">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputPhoneNo2" class="col-sm-3 col-form-label">Phone No</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputPhoneNo2" placeholder="Phone No">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputEmailAddress2" class="col-sm-3 col-form-label">Email Address</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" id="inputEmailAddress2" placeholder="Email Address">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputYearsOfExperience" class="col-sm-3 col-form-label">Years Of Experience</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputYearsOfExperience" placeholder="Years Of Experience">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputFacultyQualification" class="col-sm-3 col-form-label">Faculty Qualification</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputFacultyQualification" placeholder="Faculty Qualification">
+                        </div>
+                    </div>
+ {% endblock body  %}
