@@ -4,7 +4,7 @@ This repository contain note making website named : "Tech Notes"
 
 User can Add or delete their notes
 __________________________________________________
-Live link of this website : https://harshit-paneri.github.io/Notes-Web/
+
 __________________________________________________
 ## NEW
 <img src="/login.png">
@@ -13,7 +13,7 @@ __________________________________________________
 <img src="/dashboard.png">
 </br>
 ## View
-<img src="/categories.png">
+<img src="images/categories.png">
 </br>
 ## ADD 2
 <img src="/to do.png">
