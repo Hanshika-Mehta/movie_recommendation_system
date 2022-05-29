@@ -34,7 +34,7 @@ After login the user is asked to make a profile in which the user is asked to fi
 </br>
 After successfull creating the entries {A user has successfully logged in }
 ## Database
-<img src="images/database.png">
+<img src="/images/database.png">
 </br>
 Now the User can see the Dashboard which is accessed through the created unique id created by the user in the database during the time of log in
 ## Dashboard
