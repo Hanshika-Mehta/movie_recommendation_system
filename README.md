@@ -54,4 +54,13 @@ __________________________________________________
 **Client:** HTML 5, CSS, javascript
 
 **Server:** Python in django framework
+__________________________________________________
+##users
+1. username = 8118859092
+password = hanshika
 
+2. username = 9123456789
+password = hanshika
+
+3 username = 8123456789
+password = hanshika
