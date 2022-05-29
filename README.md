@@ -1,11 +1,25 @@
 # movie_recommendation_system
-This repository contain note making website named : "Tech Notes" 
+Identifes the users interest and recommendes the movie, and make a to_do list to watch one after another
 
 
-User can Add or delete their notes
+BASIC OVERVIEW
+________________________
+<img src="/dashboard.png">
+
+Clone this repo to your local machine.
+
+```bash
+  $ python manage.py runserver
+```
+
+
+
+
+
+_______________________
+
 __________________________________________________
-
-__________________________________________________
+As the logins in the website 
 ## NEW
 <img src="/login.png">
 </br>
