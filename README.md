@@ -57,10 +57,8 @@ __________________________________________________
 __________________________________________________
 ##users
 1. username = 8118859092
-password = hanshika
-
+   password = hanshika
 2. username = 9123456789
-password = hanshika
-
-3 username = 8123456789
-password = hanshika
+   password = hanshika
+3. username = 8123456789
+   password = hanshika
